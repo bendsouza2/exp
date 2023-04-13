@@ -4,4 +4,8 @@ try:
 except ModuleNotFoundError:
     pass
 
-print(fake_id, fake_key)
+
+def multiply(x, y):
+
+    ans = x * y
+    return ans
